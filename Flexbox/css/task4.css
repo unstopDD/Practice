@@ -1,0 +1,16 @@
+.list-item {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.list-item:nth-child(3n + 1) {
+  background-color: #ff4081;
+}
+
+.list-item:nth-child(3n + 2) {
+  background-color: #ff9800;
+}
+
+.list-item:nth-child(3n + 3) {
+  background-color: #4caf50;
+}

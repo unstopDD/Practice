@@ -1,0 +1,38 @@
+.body {
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.main-headder {
+  color: blueviolet;
+  text-align: center;
+}
+
+.task__header {
+  color: black;
+}
+
+.task {
+  list-style: none;
+}
+
+.task__link {
+  color: tomato;
+  text-decoration: none;
+}
+
+.task__link::before {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+}

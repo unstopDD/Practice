@@ -1,0 +1,7 @@
+.list__item {
+  margin-top: 16px;
+}
+
+.list__item:nth-child(1) {
+  margin-top: 0;
+}
