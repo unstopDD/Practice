@@ -1,0 +1,55 @@
+.feature {
+  height: 80px;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature:nth-child(2) {
+  background-color: darkolivegreen;
+}
+
+.item {
+  height: 80px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(2) {
+  background-color: pink;
+}
+
+.item:nth-child(3) {
+  background-color: forestgreen;
+}
+
+@media screen and (max-width: 479px) {
+  .features {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    flex-basis: 50%;
+    height: 250px;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    flex-basis: 33.3333%;
+    height: 150px;
+  }
+}

@@ -1,18 +1,17 @@
 .container {
   width: 400px;
   height: 400px;
+  background-color: #424242;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2a2a2a;
   position: relative;
 }
 
 .box {
-  position: absolute;
   width: 100px;
   height: 100px;
-  top: 0;
-  background-color: thistle;
+  position: absolute;
+  background-color: rgb(105, 105, 30);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +19,7 @@
   font-weight: bold;
   color: #fff;
 }
+
 .box:nth-child(2) {
   right: 0;
   background-color: violet;
@@ -38,4 +38,30 @@
   transform: translateY(-100px);
 
   background-color: yellowgreen;
+}
+
+.box:nth-child(5) {
+  transform: translateX(150px);
+  background-color: royalblue;
+}
+
+.box:nth-child(6) {
+  transform: translate(300px, 150px);
+  background-color: seagreen;
+}
+
+.box:nth-child(7) {
+  transform: translate(150px, 300px);
+
+  background-color: brown;
+}
+
+.box:nth-child(8) {
+  transform: translateY(150px);
+  background-color: aqua;
+}
+
+.box:nth-child(9) {
+  transform: translate(150px, 150px);
+  background-color: teal;
 }
